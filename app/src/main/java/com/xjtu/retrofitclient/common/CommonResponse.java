@@ -61,7 +61,10 @@ public class CommonResponse<T> implements Serializable {
 
     @Override
     public String toString() {
-//        return super.toString();
-        return String.format("code: %d, msg: %s%s", code, msg, data.toString());
+        if (data != null) {
+            return String.format("code: %d, msg: %s user: %s", code, msg, data.toString());
+        } else {
+            return String.format("code: %d, msg: %s", code, msg);
+        }
     }
 }

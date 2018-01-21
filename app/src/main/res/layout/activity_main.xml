@@ -18,10 +18,36 @@
         tools:context="com.xjtu.retrofitclient.MainActivity">
 
         <Button
+            android:id="@+id/btn_get_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GET ALL DEMO" />
+
+        <Button
             android:id="@+id/btn_get"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="GET DEMO" />
+
+        <Button
+            android:id="@+id/btn_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POST DEMO" />
+
+
+        <Button
+            android:id="@+id/btn_put"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PUT DEMO" />
+
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DELETE DEMO" />
 
         <TextView
             android:id="@+id/tv_response"
